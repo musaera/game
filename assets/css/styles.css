@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #87ceeb;
+}
+
+#game-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+
+#scoreboard {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.team img {
+  width: 50px;
+  height: 50px;
+}
+
+.team span {
+  font-size: 32px;
+  margin: 10px;
+  color: #fff;
+}
+
+#timer {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 36px;
+  color: red;
+}
+
+.player {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+#player1 {
+  bottom: 50px;
+  left: 100px;
+}
+
+#player2 {
+  bottom: 50px;
+  right: 100px;
+}
+
+#ball {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.goal {
+  position: absolute;
+  width: 100px;
+  height: 200px;
+}
+
+#goal1 {
+  left: 5rem;
+  bottom: 0;
+}
+
+#goal2 {
+  right: 5rem;
+  bottom: 0;
+}
